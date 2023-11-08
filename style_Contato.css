@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+html,
+body {
+	position: relative;
+	min-height: 100vh;
+}
+
+.body {
+	background-color: gray;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* Conteudo Cabeçalho */
+
+.cabecalho {
+	width: 100%;
+	background-color: #aeafb0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 0px;
+}
+
+
+.logo-texto {
+	margin-left: 20px;
+	font-family: 'Audiowide', cursive;
+	text-decoration: underline 4px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+
+}
+
+.logo-texto a {
+	color: black;
+	text-decoration: none;
+}
+
+.container-logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 30px;
+}
+
+.menu-cabecalho li {
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+.menu-cabecalho li a {
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
+	text-shadow: grey;
+	padding: 10px 15px;
+	font-family: 'Audiowide', cursive;
+}
+
+.menu-cabecalho li a:hover {
+	background-color: #48494a;
+	border-radius: 15px;
+	font-family: 'Audiowide', cursive;
+	text-decoration: underline 5px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+	color: white;
+}
+
+#opcao-contato-pag-contato {
+	color: white;
+	text-decoration: underline 5px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+}
+
+
+
+
+/* Conteudo da Pagina Home */
+
+.container_Form p,
+h1 {
+	cursor: default
+}
+
+.titulo h1 {
+	font-size: 100px;
+	font-family: 'Audiowide', cursive;
+	text-align: center;
+	text-shadow: 5px 5px 7px #48494a;
+	text-decoration: underline 5px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+}
+
+
+.p1-titulo {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	font-size: 70px;
+	font-family: 'Audiowide', cursive;
+	text-align: center;
+	text-shadow: 5px 5px 7px #48494a;
+	text-decoration: underline 5px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+}
+
+.p2-Textos {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	font-size: 30px;
+	font-family: 'Audiowide', cursive;
+	text-align: center;
+	text-shadow: 5px 5px 7px #48494a;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.container_Form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form_Contato {
+	padding-top: 30px;
+	width: 100%;
+	max-width: 32rem;
+	font-size: 18px;
+	display: block;
+}
+
+.form_Contato input,
+.form_Contato button {
+	display: block;
+	width: 100%;
+}
+
+.form_Contato input {
+	background-color: white;
+	line-height: 2;
+	margin-bottom: 0.5rem;
+	font: inherit;
+	padding: 12px;
+	margin-bottom: 16px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	outline: none;
+}
+
+.form_Contato button {
+	background-color: #aeafb0;
+	line-height: 4;
+	border-radius: 10px;
+	border-color: transparent;
+	color: black;
+	font-family: 'Audiowide', cursive;
+	outline: none;
+}
+
+.form_Contato button:hover {
+	background-color: black;
+	line-height: 4;
+	border-radius: 10px;
+	border-color: aeafb0;
+	color: white;
+	font-family: 'Audiowide', cursive;
+	outline: none;
+	text-decoration: underline 2px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+	cursor: pointer;
+	transition: all .5s;
+}
+
+.texto_label {
+	color: white;
+	font-family: 'Audiowide', cursive;
+	text-decoration: underline 3px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+}
+
+.redes-sociais {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	list-style: none;
+}
+
+.redes-sociais li a {
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
+	text-shadow: grey;
+}
+
+
+/* Conteudo Rodape */
+
+.rodape {
+	width: 100%;
+	background-color: #aeafb0;
+	height: 5rem;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	font-family: 'Audiowide', cursive;
+	text-align: center;
+}
+
+.menu-rodape {
+	padding-top: 20px;
+}
+
+.menu-rodape li {
+	display: inline-block;
+}
+
+.menu-rodape li a {
+	text-decoration: none;
+	color: black;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.menu-rodape li a:hover {
+	text-decoration: none;
+	color: White;
+	padding-left: 3px;
+	padding-right: 3px;
+	text-decoration: underline 3px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+}
+
+.menu-rodape h3 {
+	text-decoration: underline 2px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+}
+
+#contato-footer {
+	color: white;
+}
+
+/* icones */
+
+:root {
+	--size: 100px;
+	--white: #fff;
+	--blue: #3051f1;
+	--purple: #c92bb7;
+	--red: #f73344;
+	--orange: #fa8e37;
+	--yellow: #fcdf8f;
+	--yellow_to: #fbd377;
+}
+
+#instagram {
+	text-decoration: none;
+	font-size: var(--size);
+	width: 1em;
+	aspect-ratio: 1;
+	background: radial-gradient(circle farthest-corner at 28% 100%,
+			var(--yellow) 0%,
+			var(--yellow_to) 10%,
+			var(--orange) 22%,
+			var(--red) 35%,
+			transparent 65%),
+		linear-gradient(145deg, var(--blue) 10%, var(--purple) 70%);
+	border-radius: 0.2em;
+	position: relative;
+	display: grid;
+	place-items: center;
+
+	&:before,
+	&:after {
+		content: "";
+		color: var(--white);
+		position: absolute;
+		border-radius: inherit;
+		aspect-ratio: 1;
+	}
+
+	&:before {
+		border: 0.05em solid;
+		width: 65%;
+	}
+
+	&:after {
+		border-radius: 50%;
+		border: 0.05em solid;
+		width: 35%;
+		box-shadow: 0.22em -0.22em 0 -0.18em;
+	}
+}
+
+#youtube {
+	width: 50px;
+	height: 50px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style_Contato.css">
+    <title>Contato</title>
+    <link rel="icon" href="Skull_Bots__1_-removebg-preview.png" sizes="32x32">
+</head>
+
+<body class="body">
+
+    <!-- Cabeçalho-->
+    <section class="container">
+        <header class="cabecalho">
+            <div class="container-logo"><!-- Logo e texto da logo -->
+                <div class="logo-imagem">
+                    <a href="index.html"><img src="Skull_Bots__1_-removebg-preview.png" height="60px"></a>
+                </div>
+                <div class="logo-texto">
+                    <a href="index.html">
+                        <h1>Skull Bots</h1>
+                    </a>
+                </div>
+            </div>
+
+            <div class="menu-cabecalho"><!-- Menu -->
+                <ul>
+                    <li><a href="quem_Somos.html">Quem Somos</a></li>
+                    <li><a href="contato.html" id="opcao-contato-pag-contato">Contato</a></li>
+                    <li><a href="como_Funciona.html">Como Funciona</a></li>
+                </ul>
+            </div>
+        </header>
+    </section>
+    <!-- Cabeçalho-->
+
+
+    <!-- Conteudo principal-->
+    <main>
+        <section class="container_Form">
+            <div class="titulo"><!-- Titulo e subtitulo-->
+                <h1>Skull Bots</h1>
+                <p class="p1-titulo">Contato</p>
+                <p class="p2-Textos">Preencha o formlário abaixo para que possamos entrar em contato com você!</p>
+            </div>
+            <div class="container"><!--Informações para contato-->
+                <form class="form_Contato" action="https://formsubmit.co/marcelo.alcantara.c.n@gmail.com" method="POST">
+                    <label class="texto_label">*Nome:</label><br>
+                    <input type="text" name="name" required><br>
+                    <label class="texto_label">*Email:</label><br>
+                    <input type="email" name="email" required>
+                    <br>
+                    <button type="submit">Enivar</button>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/contato.html">
+                </form>
+            </div>
+            <div>
+                <p class="p1-titulo">Redes Sociais</p>
+                <p class="p2-Textos">Estamos também no instagram, nas demais redes sociais estamos nos
+                    preparando.<br>Nos siga nas redes
+                    sociais e fique por dentro das novidades!</p>
+                <ul class="redes-sociais">
+                    <li><a id="instagram" href="https://www.instagram.com/skull.bots/" target="_blank"></a>
+                    </li>
+                    <li><a href="#" id="facebook"><img src="face.webp" width="100px" height="100px"></a></li>
+                    <li><a id="Youtube" href="https://www.youtube.com/channel/UCJqC0sJ4PhqW6JClbI7GQOQ"
+                            target="_blank"><img src="youtube.png" width="100" height="100"></a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- Conteudo principal-->
+
+    <!-- Rodape-->
+    <section class="container">
+        <footer class="rodape">
+            <div class="logo-rodape"></div>
+            <div class="menu-rodape">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quem_Somos.html">Quem Somos</a></li>
+                    <li><a href="contato.html" id="contato-footer">Contato</a></li>
+                    <li><a href="como_Funciona.html">Como Funciona</a></li>
+                </ul>
+            </div>
+        </footer>
+    </section>
+    <!-- Rodape-->
+
+</body>
+
+</html>

@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+html,
+body {
+	position: relative;
+	min-height: 100vh;
+}
+
+.body {
+	background-color: gray;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* Conteudo Cabeçalho */
+
+.titulo p,
+h1 {
+	cursor: default
+}
+
+.cabecalho {
+	width: 100%;
+	background-color: #aeafb0;
+	background-image: linear-gradient(45deg, gray 30%, lightgray);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 0px;
+	cursor: pointer;
+}
+
+.logo-texto {
+	margin-left: 20px;
+	font-family: 'Audiowide', cursive;
+	text-decoration: underline 4px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+}
+
+.logo-texto a {
+	color: black;
+	text-decoration: none;
+}
+
+.container-logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 30px;
+}
+
+.menu-cabecalho li {
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+.menu-cabecalho li a {
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
+	text-shadow: grey;
+	padding: 10px 15px;
+	font-family: 'Audiowide', cursive;
+}
+
+.menu-cabecalho li a:hover {
+	background-color: #48494a;
+	border-radius: 15px;
+	font-family: 'Audiowide', cursive;
+	text-decoration: underline 5px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+	color: white;
+}
+
+/* Conteudo da Pagina Home */
+
+.titulo h1 {
+	font-size: 100px;
+	font-family: 'Audiowide', cursive;
+	text-align: center;
+	text-shadow: 5px 5px 7px #48494a;
+	text-decoration: underline 5px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+}
+
+.p1-titulo {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	font-size: 70px;
+	font-family: 'Audiowide', cursive;
+	text-align: center;
+	text-shadow: 5px 5px 7px #48494a;
+	text-decoration: underline 5px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+}
+
+.p2-titulo {
+	margin-top: 10px;
+	border-top: solid black 0.8px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 30px;
+	background-color: gray;
+	font-family: 'Audiowide', cursive;
+	text-decoration: underline 5px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+	color: whitesmoke;
+	text-shadow: 4px 4px 6px #48494a;
+}
+
+.cards-informativos {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+	gap: 25px;
+	padding-top: 20px;
+	background-color: gray;
+}
+
+.cards-informativos h2 {
+	text-align: center;
+	font-family: 'Audiowide', cursive;
+	text-shadow: 1px 1px 1px grey;
+	text-decoration: underline 2px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+}
+
+.card1 {
+	border-radius: 5px;
+	box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+	padding: 30px;
+	margin: 0px 5px;
+	margin-top: 20px;
+	margin-bottom: 150px;
+	width: 300px;
+	transition: all 0.3s ease-out;
+	background-color: #EDE4DB;
+}
+
+.card2 {
+	border-radius: 5px;
+	box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+	padding: 30px;
+	margin: 0px 5px;
+	margin-top: 20px;
+	margin-bottom: 150px;
+	width: 300px;
+	transition: all 0.3s ease-out;
+	background-color: #EDE4DB;
+}
+
+.card3 {
+	border-radius: 5px;
+	box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+	padding: 30px;
+	margin: 0px 5px;
+	margin-top: 20px;
+	margin-bottom: 150px;
+	width: 300px;
+	transition: all 0.3s ease-out;
+	background-color: #EDE4DB;
+}
+
+
+/* Conteudo Rodape */
+
+.rodape {
+	width: 100%;
+	background-color: #aeafb0;
+	height: 5rem;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	font-family: 'Audiowide', cursive;
+	text-align: center;
+	background-image: linear-gradient(45deg, gray 30%, lightgray);
+}
+
+.menu-rodape {
+	padding-top: 20px;
+}
+
+.menu-rodape li {
+	display: inline-block;
+}
+
+.menu-rodape li a {
+	text-decoration: none;
+	color: black;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.menu-rodape li a:hover {
+	text-decoration: none;
+	color: White;
+	padding-left: 3px;
+	padding-right: 3px;
+	text-decoration: underline 3px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+}
+
+.menu-rodape h3 {
+	text-decoration: underline 2px;
+	text-decoration-color: goldenrod;
+	text-underline-position: under;
+}
